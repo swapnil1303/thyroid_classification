@@ -58,6 +58,7 @@ if uploaded_file:
 
         # Display results
         st.warning("Ahhhhh, nooooo wayyy,, thyroidd")
+        
         st.markdown("Additional content for the Thyroid Screen.")
 
 # Content based on URL parameters only when a file has been uploaded
@@ -67,6 +68,7 @@ if file_uploaded:
         st.header("Healthy Screen Content")
         st.success("Great news! You're healthy.")
         st.subheader("Tips for maintaining a healthy lifestyle:")
+        st.markdown("- done")
         st.markdown("- Eat a balanced diet.")
         st.markdown("- Stay physically active.")
         st.markdown("- Get enough sleep.")
